@@ -15,6 +15,16 @@
 		0186555D26EB323E00E25E8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0186555B26EB323E00E25E8F /* LaunchScreen.storyboard */; };
 		0186556826EB323E00E25E8F /* PlatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0186556726EB323E00E25E8F /* PlatesTests.swift */; };
 		0186557326EB323E00E25E8F /* PlatesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0186557226EB323E00E25E8F /* PlatesUITests.swift */; };
+		0186558226EB327500E25E8F /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0186558126EB327500E25E8F /* Roboto-Thin.ttf */; };
+		0186558426EB327E00E25E8F /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0186558326EB327E00E25E8F /* Roboto-Regular.ttf */; };
+		0186558626EB328700E25E8F /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0186558526EB328700E25E8F /* Roboto-Light.ttf */; };
+		0186558826EB328D00E25E8F /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0186558726EB328D00E25E8F /* Roboto-Bold.ttf */; };
+		0186558B26EB32EE00E25E8F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0186558A26EB32EE00E25E8F /* Colors.swift */; };
+		0186558D26EB33EA00E25E8F /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0186558C26EB33EA00E25E8F /* Fonts.swift */; };
+		0186558F26EB37BA00E25E8F /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0186558E26EB37BA00E25E8F /* CalculateViewController.swift */; };
+		01AAD2C026EDB898009CDC6A /* PlateTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AAD2BF26EDB898009CDC6A /* PlateTableView.swift */; };
+		01AAD2C226EDBB29009CDC6A /* PlateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AAD2C126EDBB29009CDC6A /* PlateView.swift */; };
+		01AAD2C426EDC27B009CDC6A /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AAD2C326EDC27B009CDC6A /* BlankView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		0186556E26EB323E00E25E8F /* PlatesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlatesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0186557226EB323E00E25E8F /* PlatesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatesUITests.swift; sourceTree = "<group>"; };
 		0186557426EB323F00E25E8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0186558126EB327500E25E8F /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		0186558326EB327E00E25E8F /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		0186558526EB328700E25E8F /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		0186558726EB328D00E25E8F /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		0186558A26EB32EE00E25E8F /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		0186558C26EB33EA00E25E8F /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		0186558E26EB37BA00E25E8F /* CalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
+		01AAD2BF26EDB898009CDC6A /* PlateTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateTableView.swift; sourceTree = "<group>"; };
+		01AAD2C126EDBB29009CDC6A /* PlateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateView.swift; sourceTree = "<group>"; };
+		01AAD2C326EDC27B009CDC6A /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +119,15 @@
 		0186554F26EB323A00E25E8F /* Plates */ = {
 			isa = PBXGroup;
 			children = (
+				0186558926EB32DB00E25E8F /* Model */,
+				0186558026EB326500E25E8F /* Fonts */,
 				0186555026EB323A00E25E8F /* AppDelegate.swift */,
 				0186555226EB323A00E25E8F /* SceneDelegate.swift */,
 				0186555426EB323A00E25E8F /* ViewController.swift */,
+				0186558E26EB37BA00E25E8F /* CalculateViewController.swift */,
+				01AAD2BF26EDB898009CDC6A /* PlateTableView.swift */,
+				01AAD2C126EDBB29009CDC6A /* PlateView.swift */,
+				01AAD2C326EDC27B009CDC6A /* BlankView.swift */,
 				0186555626EB323A00E25E8F /* Main.storyboard */,
 				0186555926EB323E00E25E8F /* Assets.xcassets */,
 				0186555B26EB323E00E25E8F /* LaunchScreen.storyboard */,
@@ -126,6 +152,26 @@
 				0186557426EB323F00E25E8F /* Info.plist */,
 			);
 			path = PlatesUITests;
+			sourceTree = "<group>";
+		};
+		0186558026EB326500E25E8F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0186558126EB327500E25E8F /* Roboto-Thin.ttf */,
+				0186558326EB327E00E25E8F /* Roboto-Regular.ttf */,
+				0186558526EB328700E25E8F /* Roboto-Light.ttf */,
+				0186558726EB328D00E25E8F /* Roboto-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		0186558926EB32DB00E25E8F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0186558A26EB32EE00E25E8F /* Colors.swift */,
+				0186558C26EB33EA00E25E8F /* Fonts.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +277,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0186558826EB328D00E25E8F /* Roboto-Bold.ttf in Resources */,
+				0186558226EB327500E25E8F /* Roboto-Thin.ttf in Resources */,
 				0186555D26EB323E00E25E8F /* LaunchScreen.storyboard in Resources */,
+				0186558626EB328700E25E8F /* Roboto-Light.ttf in Resources */,
+				0186558426EB327E00E25E8F /* Roboto-Regular.ttf in Resources */,
 				0186555A26EB323E00E25E8F /* Assets.xcassets in Resources */,
 				0186555826EB323A00E25E8F /* Main.storyboard in Resources */,
 			);
@@ -259,8 +309,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0186555526EB323A00E25E8F /* ViewController.swift in Sources */,
+				01AAD2C026EDB898009CDC6A /* PlateTableView.swift in Sources */,
+				0186558D26EB33EA00E25E8F /* Fonts.swift in Sources */,
+				01AAD2C226EDBB29009CDC6A /* PlateView.swift in Sources */,
+				01AAD2C426EDC27B009CDC6A /* BlankView.swift in Sources */,
+				0186558B26EB32EE00E25E8F /* Colors.swift in Sources */,
 				0186555126EB323A00E25E8F /* AppDelegate.swift in Sources */,
 				0186555326EB323A00E25E8F /* SceneDelegate.swift in Sources */,
+				0186558F26EB37BA00E25E8F /* CalculateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +499,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "Shyam-Kumar.Plates";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -462,6 +519,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "Shyam-Kumar.Plates";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
